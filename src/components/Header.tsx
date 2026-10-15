@@ -2,7 +2,6 @@ import Image from "next/image";
 import NavLinks from "./NavLinks";
 import UserInfo from "./UserInfo";
 
-
 const Header = () => {
   const date = new Date().toLocaleDateString("bn-BD", {
     dateStyle: "full",
@@ -26,13 +25,9 @@ const Header = () => {
         </div>
       </div>
 
-     <UserInfo/>
+      <UserInfo />
 
-
-      <NavLinks/>
-
-
-      
+      <NavLinks />
     </header>
   );
 };
